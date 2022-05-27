@@ -42,3 +42,6 @@ D:\1_2022_DS_ALANA\DS\RpgMvc\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Newtonsof
 D:\1_2022_DS_ALANA\DS\RpgMvc\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\1_2022_DS_ALANA\DS\RpgMvc\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Usuarios\CadastrarUsuario.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartialRpg.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Usuarios\AutenticarUsuario.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Personagens\Index.cshtml.g.cs
