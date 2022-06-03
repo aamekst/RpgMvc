@@ -7,7 +7,8 @@
 <!--Links apontando para views na mesma pasta-->
 @Html.ActionLink("Criar Novo Personagem", "Create")
 </p>
-<table class="table">
+<table class="table shadow table-striped">
+<thead class="thead-dark">
 <tr><!--Títulos das colunas da tabela-->
 <th>@Html.DisplayNameFor(model => model.Id)</th>
 <th>@Html.DisplayNameFor(model => model.Nome)</th>
@@ -17,6 +18,7 @@
 <th>@Html.DisplayNameFor(model => model.Derrotas)</th>
 <th></th>
 </tr>
+</thead>
 <!--Looping para escrever os dados na tabela-->
 @foreach (var item in Model)
 {
@@ -28,10 +30,13 @@
 <td>@Html.DisplayFor(modelItem => item.Vitorias)</td>
 <td>@Html.DisplayFor(modelItem => item.Derrotas)</td>
 <td><!--Coluna para Links/botões-->
-@Html.ActionLink("Editar", "Edit", new { id = item.Id } ) |
-@Html.ActionLink("Detalhes", "Details", new { id = item.Id }) |
-@Html.ActionLink("Deletar", "Delete", new { id = item.Id })
+    @Html.ActionLink("Editar", "Edit", new { id = item.Id } ) |
+    @Html.ActionLink("Detalhes", "Details", new { id = item.Id }) |
+    @Html.ActionLink("Deletar", "Delete", new { id = item.Id }
+      , new {onclick = "return confirm('Deseja realmente deletar este personagem?');"})
 </td>
 </tr>
 }
 </table>
+
+@Html.ActionLink("Clique aqui para um embate com armas!!", "index", "Disputas", null, new {@class="btn btn-info"})

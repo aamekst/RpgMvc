@@ -45,3 +45,8 @@ D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Usuarios\CadastrarUsua
 D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartialRpg.cshtml.g.cs
 D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Usuarios\AutenticarUsuario.cshtml.g.cs
 D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Personagens\Index.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Personagens\Create.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Personagens\Details.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Personagens\Edit.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\bin\Debug\net5.0\package-lock.json
+D:\1_2022_DS_ALANA\DS\RpgMvc\bin\Debug\net5.0\package.json

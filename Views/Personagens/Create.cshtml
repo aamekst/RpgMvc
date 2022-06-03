@@ -1,0 +1,74 @@
+@model RpgMvc.Models.PersonagemViewModel
+@{
+    ViewBag.Title = "Novo Persoangem";
+}
+<h2>Criar um Novo Personagem</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+     <hr />
+
+    <div class="form-group">
+             @Html.LabelFor(model=> model.Nome, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-6">
+            @Html.EditorFor( model => model.Nome, new {htmlAttributes = new { @class="Form-control"}})
+        </div>
+    </div>
+
+    <div class="form-group">
+             @Html.LabelFor(model=> model.Pontosvida, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-6">
+            @Html.EditorFor( model => model.Pontosvida, new {htmlAttributes = new { @class="Form-control"}})
+        </div>
+    </div>
+
+    <div class="form-group">
+             @Html.LabelFor(model=> model.Forca, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-6">
+            @Html.EditorFor( model => model.Forca, new {htmlAttributes = new { @class="Form-control"}})
+        </div>
+    </div>
+
+    <div class="form-group">
+             @Html.LabelFor(model=> model.Defesa, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-6">
+            @Html.EditorFor( model => model.Defesa, new {htmlAttributes = new { @class="Form-control"}})
+        </div>
+    </div>
+
+    <div class="form-group">
+             @Html.LabelFor(model=> model.Inteligencia, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-6">
+            @Html.EditorFor( model => model.Inteligencia, new {htmlAttributes = new { @class="Form-control"}})
+        </div>
+    </div>
+
+
+    <div class="form-group">
+             @Html.LabelFor(model=> model.Classe, htmlAttributes: new { @class = "control-label col-md-2"})
+        <div class="col-md-6">
+            @Html.DropDownListFor( model => model.Classe, Html.GetEnumSelectList(typeof(RpgMvc.Models.Enums.ClassEnum)),
+            "---Selecione---", new { @class ="form-control"})
+        </div>
+    </div>
+
+
+
+
+    <div class ="form-group">
+        <div class="col-md-6">
+            <input type="submit" value="Salvar" class ="btn btn-success float-right"/>
+        </div>
+     </div>
+ </div>       
+
+}
+
+
+<div>
+    @Html.ActionLink("Retornar", "Index", "Personagens", null,  new { @class = "btn btn-danger" })
+</div>
+
+
+
