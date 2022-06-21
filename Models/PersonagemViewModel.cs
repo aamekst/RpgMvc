@@ -35,6 +35,8 @@ namespace RpgMvc.Models
         public UsuarioViewModel Usuario { get; set; }
         
  
+        public List<PersonagemHabilidadesViewModel> PersonagemHabilidades { get; set; }
+
         // public Usuario Usuario { get; set;}
 
       
