@@ -107,3 +107,8 @@ C:\DS\Mvc\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\IndexHabilidades.cshtml.g
 C:\DS\Mvc\RpgMvc\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Create.cshtml.g.cs
 C:\DS\Mvc\RpgMvc\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Index.cshtml.g.cs
 C:\DS\Mvc\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\IndexDisputas.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\Index.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\IndexDisputas.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\IndexHabilidades.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Create.cshtml.g.cs
+D:\1_2022_DS_ALANA\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\PersonagemHabilidades\Index.cshtml.g.cs

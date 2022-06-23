@@ -15,7 +15,7 @@ namespace RpgMvc.Models
 
         public int OponenteId{ get; set;}
 
-        public string  HabilidadeId{ get; set;}
+        public string  HabilidadeId { get; set;}
 
         public string Narracao { get; set;}
         
