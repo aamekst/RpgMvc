@@ -105,7 +105,7 @@ namespace RpgMvc.Controllers
                 else
                     throw new System.Exception(serialized);
 
-                string uriBuscaHabilidades = "http://localhost:5000/PersonagemHabilidades/GetHabilidades";//xyz --> Seu endereço da API
+                string uriBuscaHabilidades = "http://localhost:5000/PersonagemHabilidade/GetAll";//xyz --> Seu endereço da API
 
 
                 response = await httpClient.GetAsync(uriBuscaHabilidades);

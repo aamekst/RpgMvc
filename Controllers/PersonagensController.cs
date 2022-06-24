@@ -238,7 +238,7 @@ namespace RpgMvc.Controllers
         }
 
 
-    [HttpGet]
+    [HttpGet ("DisputaGeral")]
         public async Task<ActionResult> DisputaGeralAsync()
         {
             try
@@ -253,7 +253,8 @@ namespace RpgMvc.Controllers
 
                 string serialized = await response.Content.ReadAsStringAsync();
 
-                List<PersonagemViewModel> listaPersonagens = await Task.Run(() => JsonConvert.DeserializeObject<List<PersonagemViewModel>>(serialized));
+                List<PersonagemViewModel> listaPersonagens = await Task.Run(() => 
+                    JsonConvert.DeserializeObject<List<PersonagemViewModel>>(serialized));
 
                 string uriDisputa = "http://localhost:5000/Disputas/DisputaEmGrupo";
                 DisputasViewModel disputa = new DisputasViewModel();
